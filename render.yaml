@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: stcs-api
+    runtime: docker
+    rootDir: backend
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: FRONTEND_URL
+        sync: false
+      - key: FIREBASE_PROJECT_ID
+        sync: false
+      - key: FIREBASE_CLIENT_EMAIL
+        sync: false
+      - key: FIREBASE_PRIVATE_KEY
+        sync: false
+      - key: VISION_SERVICE_URL
+        sync: false
+  - type: web
+    name: stcs-vision
+    runtime: docker
+    rootDir: vision-service
+    healthCheckPath: /health
+    plan: starter
+    envVars:
+      - key: YOLO_MODEL
+        value: yolo11n.pt

@@ -1,0 +1,17 @@
+services:
+  api:
+    build: ./backend
+    environment:
+      PORT: 4000
+      FRONTEND_URL: http://localhost:3000
+      VISION_SERVICE_URL: http://vision:8000
+    ports:
+      - "4000:4000"
+    depends_on:
+      - vision
+  vision:
+    build: ./vision-service
+    environment:
+      YOLO_MODEL: yolo11n.pt
+    ports:
+      - "8000:8000"

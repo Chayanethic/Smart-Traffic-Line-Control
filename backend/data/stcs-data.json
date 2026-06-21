@@ -1,0 +1,313 @@
+{
+  "documents": {
+    "intersections": {
+      "primary": {
+        "state": {
+          "lanes": {
+            "lane1": 5,
+            "lane2": 11,
+            "lane3": 52,
+            "lane4": 8
+          },
+          "laneSources": {
+            "lane1": "manual-upload",
+            "lane2": "manual-upload",
+            "lane3": "manual-upload",
+            "lane4": "manual-upload"
+          },
+          "currentLane": "lane3",
+          "phase": "RED",
+          "timer": 0,
+          "waits": {
+            "lane1": 107,
+            "lane2": 70,
+            "lane3": 0,
+            "lane4": 49
+          },
+          "emergencyLane": null,
+          "totalVehiclesToday": 152,
+          "averageWait": 0,
+          "settings": {
+            "minimumGreen": 8,
+            "maximumGreen": 50,
+            "vehicleFactor": 1.2,
+            "yellowDuration": 3,
+            "deviceTimeout": 30,
+            "fairnessLimit": 75,
+            "simulationMode": true,
+            "cameraIntervalSeconds": 25,
+            "detectionConfidence": 0.35,
+            "laneCapacity": 30,
+            "emergencyDuration": 20
+          },
+          "notifications": [
+            {
+              "id": "92042f3d-e96a-4d7e-9963-a4af32f9c888",
+              "type": "warning",
+              "title": "Device disconnected",
+              "message": "ESP32-TEST-3651 missed the heartbeat timeout.",
+              "createdAt": "2026-06-21T13:09:45.615Z",
+              "read": false
+            },
+            {
+              "id": "c4bd30de-2a6a-4fa1-9b5f-0ec94330d66f",
+              "type": "warning",
+              "title": "Device disconnected",
+              "message": "ESP32-TEST-3651 missed the heartbeat timeout.",
+              "createdAt": "2026-06-21T13:05:06.025Z",
+              "read": false
+            },
+            {
+              "id": "01960e3b-6382-4ae9-b257-01e7d97e3201",
+              "type": "warning",
+              "title": "Device disconnected",
+              "message": "ESP32-TEST-3651 missed the heartbeat timeout.",
+              "createdAt": "2026-06-21T09:48:41.124Z",
+              "read": false
+            },
+            {
+              "id": "472f1803-f3f2-4553-80be-31255782625c",
+              "type": "emergency",
+              "title": "Emergency priority activated",
+              "message": "Lane 1 has immediate green priority.",
+              "createdAt": "2026-06-21T09:33:01.746Z",
+              "read": false
+            },
+            {
+              "id": "17c54a04-55a4-436c-82f2-758619b69894",
+              "type": "warning",
+              "title": "Device disconnected",
+              "message": "ESP32-TEST-3651 missed the heartbeat timeout.",
+              "createdAt": "2026-06-21T08:52:09.139Z",
+              "read": false
+            },
+            {
+              "id": "1c922c75-ad6a-46a5-a793-f9f0df4464d4",
+              "type": "emergency",
+              "title": "Emergency priority activated",
+              "message": "Lane 2 has immediate green priority.",
+              "createdAt": "2026-06-21T08:47:07.559Z",
+              "read": false
+            }
+          ],
+          "startedAt": "2026-06-21T08:46:42.869Z",
+          "operation": {
+            "status": "stopped",
+            "sessionId": null,
+            "startedAt": null,
+            "pausedAt": null,
+            "accumulatedPausedMs": 0,
+            "startingVehicleTotal": 152
+          }
+        },
+        "settings": {
+          "minimumGreen": 8,
+          "maximumGreen": 50,
+          "vehicleFactor": 1.2,
+          "yellowDuration": 3,
+          "deviceTimeout": 30,
+          "fairnessLimit": 75,
+          "simulationMode": true,
+          "cameraIntervalSeconds": 25,
+          "detectionConfidence": 0.35,
+          "laneCapacity": 30,
+          "emergencyDuration": 20
+        },
+        "updatedAt": "2026-06-21T13:14:48.646Z"
+      }
+    }
+  },
+  "collections": {
+    "traffic_data": [
+      {
+        "id": "793fd976-e290-4661-ae78-85f7ac66ff04",
+        "lanes": {
+          "lane1": 4,
+          "lane2": 11,
+          "lane3": 2,
+          "lane4": 8
+        },
+        "total": 25,
+        "source": "manual",
+        "updatedBy": "web",
+        "createdAt": "2026-06-21T08:47:07.457Z"
+      },
+      {
+        "id": "2e6b5af6-e661-4a48-a80a-df291027346a",
+        "lanes": {
+          "lane1": 4,
+          "lane2": 11,
+          "lane3": 2,
+          "lane4": 8
+        },
+        "total": 25,
+        "source": "manual",
+        "updatedBy": "web",
+        "createdAt": "2026-06-21T09:04:17.028Z"
+      },
+      {
+        "id": "f81ee3c0-aca4-4e79-ba62-05f545ee659e",
+        "lanes": {
+          "lane1": 5,
+          "lane2": 11,
+          "lane3": 2,
+          "lane4": 8
+        },
+        "total": 26,
+        "source": "manual-upload",
+        "lane": "lane1",
+        "vehicleCount": 5,
+        "inferenceMs": 9592,
+        "createdAt": "2026-06-21T09:16:37.287Z"
+      },
+      {
+        "id": "6f566376-95ee-42d5-9b7f-c0e4237bda7f",
+        "lanes": {
+          "lane1": 5,
+          "lane2": 11,
+          "lane3": 52,
+          "lane4": 8
+        },
+        "total": 76,
+        "source": "manual-upload",
+        "lane": "lane3",
+        "vehicleCount": 52,
+        "inferenceMs": 4843,
+        "createdAt": "2026-06-21T13:13:54.257Z"
+      }
+    ],
+    "emergency_logs": [
+      {
+        "id": "b4b822f1-ed36-4c26-a29f-7455ec077da4",
+        "lane": "lane2",
+        "status": "active",
+        "triggeredBy": "operator",
+        "createdAt": "2026-06-21T08:47:07.556Z"
+      },
+      {
+        "id": "5c2f06ad-f3d6-430e-8720-486005c113ad",
+        "lane": "lane2",
+        "status": "cleared",
+        "triggeredBy": "operator",
+        "createdAt": "2026-06-21T08:47:07.570Z"
+      },
+      {
+        "id": "aeaf5a2f-4462-4003-98e6-3d0699b7ed12",
+        "lane": "lane1",
+        "status": "active",
+        "triggeredBy": "web-operator",
+        "createdAt": "2026-06-21T09:33:01.742Z"
+      },
+      {
+        "id": "6ca7b2ae-9ded-4849-bff3-aa256e9f9694",
+        "lane": "lane1",
+        "status": "cleared",
+        "triggeredBy": "web-operator",
+        "createdAt": "2026-06-21T09:33:29.927Z"
+      }
+    ],
+    "device_registry": [
+      {
+        "id": "0a261576-cebd-49b3-81ee-6610a382eee7",
+        "deviceId": "ESP32-TEST-3651",
+        "junctionName": "Integration Test",
+        "location": "Lab",
+        "firmwareVersion": "1.0.0",
+        "cameraModel": "OV7670",
+        "apiKeyHash": "8e888f907ccc2ae13d41f24abcd004d909aeb3a6b5d87137a3d8dcbdeafee4a0",
+        "online": false,
+        "wifiSignal": null,
+        "cameraStatus": "not-seen",
+        "lastHeartbeat": null,
+        "createdAt": "2026-06-21T08:51:35.546Z"
+      },
+      {
+        "id": "0a261576-cebd-49b3-81ee-6610a382eee7",
+        "deviceId": "ESP32-TEST-3651",
+        "junctionName": "Integration Test",
+        "location": "Lab",
+        "firmwareVersion": "1.0.0",
+        "cameraModel": "OV7670",
+        "apiKeyHash": "8e888f907ccc2ae13d41f24abcd004d909aeb3a6b5d87137a3d8dcbdeafee4a0",
+        "online": true,
+        "wifiSignal": -48,
+        "cameraStatus": "ready",
+        "lastHeartbeat": "2026-06-21T08:51:35.630Z",
+        "createdAt": "2026-06-21T08:51:35.630Z",
+        "lastIp": "::1"
+      }
+    ],
+    "system_logs": [
+      {
+        "id": "3068ddd0-49bd-49df-98e2-112f0ee00640",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T08:52:09.140Z"
+      },
+      {
+        "id": "378b0181-3212-4859-8e96-570bb899a8bf",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T09:43:39.201Z"
+      },
+      {
+        "id": "eb148058-9f86-4d2d-ab6f-493a3b5108a0",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T09:43:56.469Z"
+      },
+      {
+        "id": "7c96a8f3-e257-4162-8c09-921d196a9ea6",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T09:46:34.173Z"
+      },
+      {
+        "id": "683f5f4d-84db-4666-b4d2-b10e9e62c405",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T09:48:41.124Z"
+      },
+      {
+        "id": "a580002b-402b-4c57-9542-ab15b8e233ef",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T09:51:16.602Z"
+      },
+      {
+        "id": "6240aa5e-79ab-4376-8242-01d207cba804",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T13:05:06.026Z"
+      },
+      {
+        "id": "a3fa719d-f36e-406c-b316-09c8e551a825",
+        "level": "warning",
+        "message": "ESP32-TEST-3651 heartbeat timed out.",
+        "createdAt": "2026-06-21T13:09:45.616Z"
+      }
+    ],
+    "operation_sessions": [
+      {
+        "id": "c80a0c2a-d371-45e1-bd78-0599812824a0",
+        "sessionId": "5ad4dc2c-3bf7-48d3-83bd-ef3ed801aa1d",
+        "startedAt": "2026-06-21T09:51:10.215Z",
+        "endedAt": "2026-06-21T09:51:13.308Z",
+        "durationSeconds": 3,
+        "stoppedBy": "web-operator",
+        "vehiclesObserved": 0,
+        "createdAt": "2026-06-21T09:51:13.308Z"
+      },
+      {
+        "id": "2924924f-7844-4432-a1a9-2b0291bcdb1a",
+        "sessionId": "cb83e14b-8a42-4b2b-ac74-f94f5883e40b",
+        "startedAt": "2026-06-21T13:09:39.260Z",
+        "endedAt": "2026-06-21T13:14:48.644Z",
+        "durationSeconds": 309,
+        "stoppedBy": "web-operator",
+        "vehiclesObserved": 76,
+        "createdAt": "2026-06-21T13:14:48.644Z"
+      }
+    ]
+  }
+}
