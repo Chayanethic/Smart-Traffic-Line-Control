@@ -1,0 +1,11 @@
+node_modules
+.next
+.next-dev
+dist
+.env
+.env.example
+.env.local
+*.log
+.vercel
+.DS_Store
+serviceAccountKey.json
